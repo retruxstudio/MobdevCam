@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/showing_image"
+        app:srcCompat="@drawable/ic_emptyimage"
+        tools:ignore="VectorDrawableCompat" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/focusAnimation"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignStart="@+id/camBtn"
+        android:layout_alignTop="@+id/camBtn"
+        android:layout_alignEnd="@+id/camBtn"
+        android:layout_alignBottom="@+id/camBtn"
+        android:layout_marginStart="-30dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginEnd="-30dp"
+        android:layout_marginBottom="-30dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/active"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/camBtn"
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/bg_button"
+        android:drawableBottom="@drawable/ic_camera"
+        android:paddingBottom="30dp" />
+
+    <Button
+        android:id="@+id/uploadBtn"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="67dp"
+        android:layout_toEndOf="@+id/camBtn"
+        android:background="@drawable/bg_button2"
+        android:drawableBottom="@drawable/ic_upload"
+        android:paddingBottom="15dp" />
+
+    <Button
+        android:id="@+id/galleryBtn"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_toStartOf="@+id/camBtn"
+        android:background="@drawable/bg_button2"
+        android:paddingBottom="16.5dp"
+        android:drawableBottom="@drawable/ic_gallery"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="67dp"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="50dp" />
+
+</RelativeLayout>

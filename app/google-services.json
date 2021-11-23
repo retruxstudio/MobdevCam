@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "826358393051",
+    "project_id": "mobapp-89ac5",
+    "storage_bucket": "mobapp-89ac5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826358393051:android:615febb2db03e3d1cd44fe",
+        "android_client_info": {
+          "package_name": "com.retrux.mobdevcam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826358393051-qef7meed63ogvbbc588tgaf9qgp523dl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7-gdZM8nck8dJnuW_dsSbI3pmNPUO9S4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826358393051-qef7meed63ogvbbc588tgaf9qgp523dl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
